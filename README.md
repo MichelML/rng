@@ -7,8 +7,8 @@ the **ring buffer is the recommended default**: it is the only one whose O(1)
 cost holds regardless of state size or where the taps land, with similar memory
 consumption (see benchmark results).
 
-> The full working conversation with [Claude Code](https://claude.com/claude-code)
-> that produced these implementations is in [conversation.pdf](conversation.pdf).
+> The full working conversation with Claude Code that produced these
+> implementations is in [conversation.pdf](conversation.pdf).
 
 ## Getting started
 
