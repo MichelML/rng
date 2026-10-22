@@ -9,7 +9,7 @@ call for the front insert while the ring buffer pays O(1).
 import time
 import tracemalloc
 
-from random_number_generator import RandomNumberGenerator as ListRNG
+from list_rng import RandomNumberGenerator as ListRNG
 from ring_buffer_rng import RandomNumberGenerator as RingRNG
 from deque_rng import RandomNumberGenerator as DequeRNG
 

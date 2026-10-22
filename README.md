@@ -41,7 +41,7 @@ is the key fact the fastest implementation exploits.
 
 ## The three approaches
 
-**List** ([random_number_generator.py](random_number_generator.py)) — the
+**List** ([list_rng.py](list_rng.py)) — the
 straightforward reading. The state is a plain `list`; tap reads are O(1) by
 index, but pushing onto the front with `list.insert(0, …)` shifts every element
 over by one, making each `next()` call O(n). Dead simple and perfectly fine for

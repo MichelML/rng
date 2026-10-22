@@ -1,6 +1,6 @@
 """Ring-buffer random number generator (the O(1) reading of the challenge).
 
-Same LFSR semantics as random_number_generator.py, but it exploits the fact
+Same LFSR semantics as list_rng.py, but it exploits the fact
 that the state never changes length: every call pushes one symbol onto the
 front and pops one off the back, so there are always exactly n symbols.
 
